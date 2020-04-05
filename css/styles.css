@@ -1,0 +1,157 @@
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
+
+h1 {   padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h3 {
+  line-height: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 9% 15%;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+/*navigation bar*/
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*buttom Download*/
+.donwload-buttom {
+  margin: 5% 3% 5% 0;
+}
+
+/*image tittle*/
+.tittle-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%
+}
+
+@media (max-width: 1028px) {
+  .tittle-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/*second part */
+.second-center {
+  color: #8f8f8f;
+  margin-top: 20px;
+}
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.col-lg-4 {
+  padding: 5%;
+}
+
+/*testimonial area*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin-left: 20px;
+}
+
+/*press section*/
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+  }
+.press-logo:hover{width:20%;}
+
+
+/*princing section*/
+#pricing {
+  padding: 100px 100px 10px 100px;
+  text-align: center;
+}
+.card{margin-bottom: 10px;}
+.pricing-column {
+  3% 0 0 0;
+}
+
+/*call to action*/
+
+#cta {
+  background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+    font-size: 100px;
+}
+.cta-heading{font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+font-size: 3rem;
+line-height: 1.5;
+
+}
+/*footer*/
+
+#footer{
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 100px;}
+
+.social-icon{margin: 0 5px 0 5px;
+color: gray;}
+.Copyright{margin-top: 2px;
+font-size: 10px;
+color: gray;}
